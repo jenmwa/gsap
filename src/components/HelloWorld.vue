@@ -29,12 +29,13 @@
       },
       heart() {
         gsap.from('#globe', {
-           ease: "elastic.out(1, 0.3)",
-           scaleX:1.2, scaleY:1.3,
-           y: 1,
-           x: 1,
-           transformOrigin: 'center center',
-           repeat: -1
+          duration: 2.5,
+          ease: "elastic.out(1, 0.75)",
+          scaleX:1.2, scaleY:1.3,
+          y: 1,
+          x: 1,
+          transformOrigin: 'center center',
+          repeat: -1
         })
       },
     },
