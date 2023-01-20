@@ -16,6 +16,8 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="svg-container">
       <HelloWorld/> 
     </div>
+    <img class="github-icon" src="../public/github-svgrepo-com.svg"/>
+    <p>@jenmwa</p>
   </main>
 
   <!-- CREATE A PLAY AGAIN BUTTON -->
@@ -36,7 +38,8 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 
 main {
-  width: 100%;
+  max-width: 400px;
+  /* width: 100%; */
 }
 .logos {
   position: relative;
@@ -45,9 +48,15 @@ main {
 }
 
 .svg-container {
-  scale: 1.5;
+  margin-left: 4rem;
+  scale: 1.8;
+  /* scale: 1.5;
    max-width: 100%; 
-   margin-bottom: 50rem;
-   
+   margin-left: 100px;
+   margin-right: auto; */
+}
+
+.github-icon {
+max-width: 50px;
 }
 </style>

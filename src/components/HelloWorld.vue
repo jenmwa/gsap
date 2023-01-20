@@ -50,10 +50,10 @@
     gsap.from('#globe', { scale: 0,  duration: 10, transformOrigin: 'center center', onComplete: this.heart});
 
     gsap.from('#W, #R, #L, #D', {delay: 12, opacity:0, duration: 1, });
-    gsap.from('#grupp_world', 1, {delay: 12, fill: "black", duration: 3.5,});
-    gsap.to("#grupp_world", 1, {delay: 14, fill: "red", duration: 3.5 },);
-    gsap.from("#grupp_world", 1, {delay: 15, fill: "red", duration: 3.5 },);
-    gsap.fromTo("#L", 1, {delay: 16, fill: "black", duration: 5 }, {delay: 17, fill: "#2196f3", duration: 3.5 },);
+    gsap.from('#grupp_world', 1, {delay: 12, fill: 'black', duration: 3.5,});
+    gsap.to("#grupp_world", 1, {delay: 14, fill: '#cddc39', duration: 3.5 },);
+    gsap.from("#grupp_world", 1, {delay: 15, fill: '#cddc39', duration: 3.5 },);
+    gsap.fromTo("#L", 1, {delay: 16, fill: 'black', duration: 5 }, {delay: 17, fill: '#2196f3', duration: 3.5 },);
     gsap.to("#D", {delay: 13.5, duration: 2.5, rotate:15, transformOrigin: 'end end',});
 
 		},
@@ -69,5 +69,6 @@
 <style scoped>
   .svg-container {
     width: 100%;
+    margin-top: 50%;
   }
 </style>
