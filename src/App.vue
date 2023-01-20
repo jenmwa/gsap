@@ -13,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
       </a>
     </div>
-    <div class="svg-container">
+    <div class="svg">
       <HelloWorld/> 
     </div>
     <img class="github-icon" src="../public/github-svgrepo-com.svg"/>
@@ -37,26 +37,27 @@ import HelloWorld from './components/HelloWorld.vue'
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 
-main {
-  max-width: 400px;
-  /* width: 100%; */
-}
+/* main {
+  max-width: 90%;
+  /* width: 100%; 
+} */
+
 .logos {
   position: relative;
   top: -75px;
   scale: 0.2;
 }
 
-.svg-container {
-  margin-left: 4rem;
-  scale: 1.8;
-  /* scale: 1.5;
-   max-width: 100%; 
-   margin-left: 100px;
-   margin-right: auto; */
-}
+
+/* .svg {
+  width: 100vw;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+} */
 
 .github-icon {
-max-width: 50px;
+width: 50px;
 }
 </style>
