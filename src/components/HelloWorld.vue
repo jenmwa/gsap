@@ -55,6 +55,7 @@
     gsap.from('#grupp_world', 1, {delay: 12, fill: 'black', duration: 3.5,});
     gsap.to("#grupp_world", 1, {delay: 14, fill: '#cddc39', duration: 3.5 },);
     gsap.from("#grupp_world", 1, {delay: 15, fill: '#cddc39', duration: 3.5 },);
+
     gsap.fromTo("#L", 1, {delay: 16, fill: 'black', duration: 5 }, {delay: 17, fill: '#2196f3', duration: 3.5 },);
     gsap.to("#D", {delay: 13.5, duration: 2.5, rotate:15, transformOrigin: 'end end',});
 
@@ -69,11 +70,4 @@
 </template>
 
 <style scoped>
-/* .svg-container { */
-  /* margin-left: 10rem;
-  scale: 2;    /* margin-top: 50%; 
-  } */
-
-  svg-container {
-scale: 2;  }
 </style>
